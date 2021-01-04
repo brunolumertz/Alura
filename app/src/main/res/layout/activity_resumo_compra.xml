@@ -10,6 +10,7 @@
         android:id="@+id/resumo_compra_banner_inicial"
         android:layout_width="0dp"
         android:layout_height="100dp"
+        android:contentDescription="@string/imagem_banner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,14 +23,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Parabéns!"
+        android:text="@string/parabens"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/resumo_compra_banner_inicial"
         app:layout_constraintEnd_toEndOf="@+id/resumo_compra_banner_inicial"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/resumo_compra_banner_inicial"
         app:layout_constraintTop_toTopOf="@+id/resumo_compra_banner_inicial"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -38,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Compra realizada com sucesso :)"
+        android:text="@string/compra_realizada"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/resumo_compra_parabens"
@@ -52,7 +53,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Confira o resumo da compra:"
+        android:text="@string/confira_resumo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resumo_compra_banner_inicial"  />
@@ -61,11 +62,12 @@
         android:id="@+id/resumo_compra_imagem_pacote"
         android:layout_width="0dp"
         android:layout_height="150dp"
+        android:contentDescription="@string/imagem_do_pacote"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resumo_compra_confira_resumo"
-        app:srcCompat="@drawable/sao_paulo_sp" />
+        tools:srcCompat="@drawable/sao_paulo_sp" />
 
     <TextView
         android:id="@+id/resumo_compra_local_pacote"
