@@ -25,19 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd796c39-ea37-4c36-b887-32f45a5c2de5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/FormularioNotaActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/NotaActivityConstantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_salva_nota.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_salva_nota.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario_nota.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_formulario_nota_salva.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/recyclerview/adapter/listener/OnItemClickListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/model/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/model/Nota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/FormularioNotaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/FormularioNotaActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/ListaNotasActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/ListaNotasActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/NotaActivityConstantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/activity/NotaActivityConstantes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/recyclerview/adapter/ListaNotasAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/recyclerview/adapter/ListaNotasAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lista_notas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lista_notas.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/br/com/alura/ceep/ui/recyclerview/adapter" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -211,14 +204,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609939569799" />
-    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1609856531057">
+    <state x="776" y="298" key="chooseDestDirectoryDialog" timestamp="1610024533379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609856531057" />
-    <state x="690" y="284" key="extract.method.dialog" timestamp="1609945629279">
+    <state x="776" y="298" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610024533379" />
+    <state x="690" y="284" key="extract.method.dialog" timestamp="1610030061972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="284" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609945629279" />
+    <state x="690" y="284" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610030061972" />
     <state x="581" y="264" key="psd.add.library.dependency.panel.dimension" timestamp="1609855789072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
