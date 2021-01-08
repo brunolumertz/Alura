@@ -1,5 +1,6 @@
 package br.com.alura.ceep.ui.activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,11 +14,12 @@ import br.com.alura.ceep.model.Nota;
 
 import static br.com.alura.ceep.ui.activity.NotaActivityConstantes.CHAVE_NOTA;
 import static br.com.alura.ceep.ui.activity.NotaActivityConstantes.CHAVE_POSICAO;
-import static br.com.alura.ceep.ui.activity.NotaActivityConstantes.CODIGO_RESULTADO_NOTA_CRIADA;
 import static br.com.alura.ceep.ui.activity.NotaActivityConstantes.POSICAO_INVALIDA;
 
 public class FormularioNotaActivity extends AppCompatActivity {
 
+    public static final String TITULO_APPBAR_INSERE = "Insere nota";
+    public static final String TITULO_APPBAR_ALTERA = "Altera nota";
     private int posicaoRecibida = POSICAO_INVALIDA;
     private TextView titulo;
     private TextView descricao;
@@ -27,10 +29,12 @@ public class FormularioNotaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulario_nota);
 
+        setTitle(TITULO_APPBAR_INSERE);
         inicializaCampos();
 
         Intent dadosRecebidos = getIntent();
         if (dadosRecebidos.hasExtra(CHAVE_NOTA)) {
+            setTitle(TITULO_APPBAR_ALTERA);
             Nota notaRecebida = (Nota) dadosRecebidos
                     .getSerializableExtra(CHAVE_NOTA);
             posicaoRecibida = dadosRecebidos.getIntExtra(CHAVE_POSICAO, POSICAO_INVALIDA);
@@ -67,7 +71,7 @@ public class FormularioNotaActivity extends AppCompatActivity {
         Intent resultadoInsercao = new Intent();
         resultadoInsercao.putExtra(CHAVE_NOTA, nota);
         resultadoInsercao.putExtra(CHAVE_POSICAO, posicaoRecibida);
-        setResult(CODIGO_RESULTADO_NOTA_CRIADA, resultadoInsercao);
+        setResult(Activity.RESULT_OK, resultadoInsercao);
     }
 
 
