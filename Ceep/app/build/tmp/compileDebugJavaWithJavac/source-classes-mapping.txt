@@ -1,0 +1,22 @@
+br/com/alura/ceep/model/Nota.java
+ br.com.alura.ceep.model.Nota
+br/com/alura/ceep/ui/recyclerview/adapter/listener/OnItemClickListener.java
+ br.com.alura.ceep.ui.recyclerview.adapter.listener.OnItemClickListener
+br/com/alura/ceep/ui/activity/NotaActivityConstantes.java
+ br.com.alura.ceep.ui.activity.NotaActivityConstantes
+br/com/alura/ceep/ui/recyclerview/adapter/ListaNotasAdapter.java
+ br.com.alura.ceep.ui.recyclerview.adapter.ListaNotasAdapter
+ br.com.alura.ceep.ui.recyclerview.adapter.ListaNotasAdapter$NotaViewHolder
+ br.com.alura.ceep.ui.recyclerview.adapter.ListaNotasAdapter$NotaViewHolder$1
+br/com/alura/ceep/ui/activity/FormularioNotaActivity.java
+ br.com.alura.ceep.ui.activity.FormularioNotaActivity
+br/com/alura/ceep/dao/NotaDAO.java
+ br.com.alura.ceep.dao.NotaDAO
+br/com/alura/ceep/ui/activity/ListaNotasActivity.java
+ br.com.alura.ceep.ui.activity.ListaNotasActivity
+ br.com.alura.ceep.ui.activity.ListaNotasActivity$1
+ br.com.alura.ceep.ui.activity.ListaNotasActivity$2
+br/com/alura/ceep/ui/recyclerview/helper/callback/NotaItemTouchHelperCallback.java
+ br.com.alura.ceep.ui.recyclerview.helper.callback.NotaItemTouchHelperCallback
+br/com/alura/ceep/BuildConfig.java
+ br.com.alura.ceep.BuildConfig
