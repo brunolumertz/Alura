@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import br.com.alura.agenda.R;
-import br.com.alura.agenda.dao.AlunoDAO;
 import br.com.alura.agenda.model.Aluno;
 import br.com.alura.agenda.ui.ListaAlunosView;
 
@@ -46,7 +45,7 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
         int itemId = item.getItemId();
         CharSequence tituloDoMenu = item.getTitle();
-        if(itemId == R.id.acivity_lista_alunos_menu_remover) {
+        if (itemId == R.id.acivity_lista_alunos_menu_remover) {
             listaAlunosView.confirmaRemocao(item);
         }
         return super.onContextItemSelected(item);
