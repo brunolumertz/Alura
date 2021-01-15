@@ -11,17 +11,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.alura.agenda.R;
+import br.com.alura.agenda.asynctask.BuscaPrimeiroTelefoneDoAluno;
 import br.com.alura.agenda.database.AgendaDatabase;
 import br.com.alura.agenda.database.dao.TelefoneDAO;
 import br.com.alura.agenda.model.Aluno;
-import br.com.alura.agenda.model.Telefone;
 
-public class ListaAlunoAdapter extends BaseAdapter {
+public class ListaAlunosAdapter extends BaseAdapter {
+
     private final List<Aluno> alunos = new ArrayList<>();
     private final Context context;
     private final TelefoneDAO dao;
 
-    public ListaAlunoAdapter(Context context) {
+    public ListaAlunosAdapter(Context context) {
         this.context = context;
         dao = AgendaDatabase.getInstance(context).getTelefoneDAO();
     }
@@ -52,17 +53,18 @@ public class ListaAlunoAdapter extends BaseAdapter {
     private void vincula(View view, Aluno aluno) {
         TextView nome = view.findViewById(R.id.item_aluno_nome);
         nome.setText(aluno.getNome());
-//        nome.setText(aluno.getNomeCompleto() + " " + aluno.dataFormatada());
         TextView telefone = view.findViewById(R.id.item_aluno_telefone);
-        Telefone primeiroTelefone = dao.buscaPrimeiroTelefoneDoAluno(aluno.getId());
-        telefone.setText(primeiroTelefone.getNumero());
+        new BuscaPrimeiroTelefoneDoAluno(dao,
+                telefone, aluno.getId()).execute();
     }
 
     private View criaView(ViewGroup viewGroup) {
-        return LayoutInflater.from(context).inflate(R.layout.item_aluno, viewGroup, false);
+        return LayoutInflater
+                .from(context)
+                .inflate(R.layout.item_aluno, viewGroup, false);
     }
 
-    public void atualiza(List<Aluno> alunos) {
+    public void atualiza(List<Aluno> alunos){
         this.alunos.clear();
         this.alunos.addAll(alunos);
         notifyDataSetChanged();
