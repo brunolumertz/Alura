@@ -2,11 +2,12 @@ package br.com.alura.agenda.model;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import androidx.annotation.NonNull;
 
 import java.io.Serializable;
 import java.util.Calendar;
+import java.util.List;
 
-@SuppressWarnings("NullableProblems")
 @Entity
 public class Aluno implements Serializable {
 
@@ -40,6 +41,7 @@ public class Aluno implements Serializable {
         return email;
     }
 
+    @NonNull
     @Override
     public String toString() {
         return nome;
@@ -56,15 +58,5 @@ public class Aluno implements Serializable {
     public boolean temIdValido() {
         return id > 0;
     }
-
-
-//    public String getNomeCompleto() {
-//        return nome;
-//    }
-
-//    public String dataFormatada(){
-//        SimpleDateFormat formatador = new SimpleDateFormat("dd/MM/yyyy");
-//        return formatador.format(momentoDeCadastro.getTime());
-//    }
 
 }

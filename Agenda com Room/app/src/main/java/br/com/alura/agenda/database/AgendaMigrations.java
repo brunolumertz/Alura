@@ -1,10 +1,11 @@
 package br.com.alura.agenda.database;
 
-import androidx.annotation.NonNull;
-import androidx.room.migration.Migration;
 import androidx.sqlite.db.SupportSQLiteDatabase;
-
+import androidx.room.migration.Migration;
+import androidx.annotation.NonNull;
 import br.com.alura.agenda.model.TipoTelefone;
+
+import static br.com.alura.agenda.model.TipoTelefone.FIXO;
 
 class AgendaMigrations {
 
@@ -17,7 +18,7 @@ class AgendaMigrations {
     private static final Migration MIGRATION_2_3 = new Migration(2, 3) {
         @Override
         public void migrate(@NonNull SupportSQLiteDatabase database) {
-            //Cirar nova tabela com as informações desejadas
+            // Criar nova tabela com as informações desejadas
             database.execSQL("CREATE TABLE IF NOT EXISTS `Aluno_novo` " +
                     "(`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, " +
                     "`nome` TEXT, " +
@@ -81,13 +82,14 @@ class AgendaMigrations {
             database.execSQL("INSERT INTO Telefone (numero, alunoId) " +
                     "SELECT telefoneFixo, id FROM Aluno");
 
-            database.execSQL("UPDATE Telefone SET tipo = ?", new TipoTelefone[] {TipoTelefone.FIXO});
+            database.execSQL("UPDATE Telefone SET tipo = ?", new TipoTelefone[] {FIXO});
 
             database.execSQL("DROP TABLE Aluno");
 
             database.execSQL("ALTER TABLE Aluno_novo RENAME TO Aluno");
         }
     };
-    static final Migration[] TODAS_MIGRATIONS = {MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4, MIGRATION_4_5, MIGRATION_5_6};
+    static final Migration[] TODAS_MIGRATIONS = {MIGRATION_1_2, MIGRATION_2_3,
+            MIGRATION_3_4, MIGRATION_4_5, MIGRATION_5_6};
 
 }

@@ -17,9 +17,13 @@ public class Telefone {
             parentColumns = "id",
             childColumns = "alunoId",
             onUpdate = CASCADE,
-            onDelete = CASCADE
-    )
+            onDelete = CASCADE)
     private int alunoId;
+
+    public Telefone(String numero, TipoTelefone tipo) {
+        this.numero = numero;
+        this.tipo = tipo;
+    }
 
     public int getAlunoId() {
         return alunoId;
@@ -52,4 +56,5 @@ public class Telefone {
     public void setTipo(TipoTelefone tipo) {
         this.tipo = tipo;
     }
+
 }
