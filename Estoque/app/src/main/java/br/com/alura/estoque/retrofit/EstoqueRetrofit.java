@@ -10,12 +10,8 @@ public class EstoqueRetrofit {
     private final ProdutoService produtoService;
 
     public EstoqueRetrofit() {
-        
-        HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
-        logging.setLevel(HttpLoggingInterceptor.Level.BODY);
-        OkHttpClient client = new OkHttpClient.Builder()
-                .addInterceptor(logging)
-                .build();
+
+        OkHttpClient client = configuraClient();
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://192.168.0.112:8080/")
@@ -24,6 +20,15 @@ public class EstoqueRetrofit {
                 .build();
         produtoService = retrofit.create(ProdutoService.class);
     }
+
+    private OkHttpClient configuraClient() {
+        HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+        logging.setLevel(HttpLoggingInterceptor.Level.BODY);
+        return new OkHttpClient.Builder()
+                .addInterceptor(logging)
+                .build();
+    }
+
     public ProdutoService getProdutoService() {
         return produtoService;
     }
