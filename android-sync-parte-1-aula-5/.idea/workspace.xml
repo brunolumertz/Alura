@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd689388-edff-4e88-808f-6096c3ddab9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/androidTest/java/br/com/alura/agenda/ApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/debug/res/values/google_maps_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/DetalhesProvaActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/DetalhesProvaFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/FormularioActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/FormularioHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/ListaAlunosActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/ListaProvasFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/Localizador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/MapaActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/MapaFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/ProvasActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/ProvasTabletActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/adapter/AlunosAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/converter/AlunoConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/dao/AlunoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/modelo/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/modelo/Prova.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/receiver/SMSReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/tasks/EnviaAlunosTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/tasks/InsereAlunoTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/java/br/com/alura/agenda/web/WebClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_confirmar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_enviar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_mapa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_no_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_opcoes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_preferencias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-hdpi/ic_receber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_confirmar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_enviar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_mapa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_no_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_opcoes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_preferencias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-mdpi/ic_receber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_confirmar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_enviar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_mapa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_no_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_opcoes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_preferencias.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable-xhdpi/ic_receber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable/fundo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable/fundo_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/drawable/person.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout-land/activity_provas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout-land/list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/activity_detalhes_prova.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/activity_formulario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/activity_lista_alunos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/activity_mapa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/activity_provas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/activity_provas_tablet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/fragment_detalhes_prova.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/fragment_lista_provas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/layout/list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/menu/menu_formulario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/menu/menu_lista_alunos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/raw/msg.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/values-land/bools.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/values/bools.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/app/src/release/res/values/google_maps_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-sync-parte-1-aula-1/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1nQwyxpVnoRWcPQfHB3uC7WpaVG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="android_2" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-22T17:36:25.685Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="android-sync-parte-1-aula-5.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd689388-edff-4e88-808f-6096c3ddab9b" name="Default Changelist" comment="" />
+      <created>1611335881608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611335881608</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611336240089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611336240089" />
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1611336563634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611336563634" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1611336563634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611336563634" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1611336563634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611336563634" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1611336563634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611336563634" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1611336046897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611336046897" />
+  </component>
+</project>
