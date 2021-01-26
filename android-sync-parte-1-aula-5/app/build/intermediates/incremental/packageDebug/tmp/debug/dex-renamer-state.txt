@@ -1,0 +1,4 @@
+#Fri Jan 22 14:36:29 BRT 2021
+base.0=C\:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\android-sync-parte-1-aula-5\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
