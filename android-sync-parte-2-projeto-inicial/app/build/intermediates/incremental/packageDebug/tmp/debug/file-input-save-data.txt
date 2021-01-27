@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Tue Jan 26 13:21:51 BRT 2021
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\Bruno\\Downloads\\android-sync-parte-2-projeto-inicial\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1
