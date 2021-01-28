@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3aa5fec8-3204-4827-b13c-87e77bf3f080" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -34,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -122,33 +131,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1611763429564">
+    <state x="734" y="357" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1611838766913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611763429564" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1611763429564">
+    <state x="734" y="357" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611838766913" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1611844788008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611763429564" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1611763429564">
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1611844788008" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1611836548979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611763429564" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1611763429564">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611836548979" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611836276299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611763429564" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611836276299" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1611844790368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611844790368" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1611844790368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611844790368" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1611844790368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611844790368" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1611844790368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611844790368" />
     <state x="566" y="237" width="787" height="562" key="RefactorJ.ExtractClass" timestamp="1611760209648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="566" y="237" width="787" height="562" key="RefactorJ.ExtractClass/0.0.1920.1040@0.0.1920.1040" timestamp="1611760209648" />
-    <state x="690" y="270" key="extract.method.dialog" timestamp="1611762696208">
+    <state x="690" y="270" key="extract.method.dialog" timestamp="1611842250144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="270" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611762696208" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611760036688">
+    <state x="690" y="270" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611842250144" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611842183274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611760036688" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611842183274" />
   </component>
 </project>
