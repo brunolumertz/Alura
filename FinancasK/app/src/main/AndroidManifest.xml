@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FinancasK" >
-        <activity android:name=".ui.activity.ListaTransacoesActivity">
+        <activity android:name=".ui.activity.activity.ListaTransacoesActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
                 <action android:name="android.intent.action.MAIN"/>
