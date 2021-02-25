@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta8] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\824b706dc024da2cdb9fe14e1633f1a9\constraintlayout-2.0.0-beta8\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\ea64708b51c60f50f2c5d5242b8ac379\navigation-ui-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\fd8764871a64d091a8f8901b6f56ae0e\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
@@ -55,27 +55,27 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Bruno\.gradle\cache
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\d6ffec2e90c7164a4c5b68aec4e3c497\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\5c4673d94f1f5ab69f0b1382eecae7c9\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\3986e9a69874208f37b7ac23f3254f48\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:4:5-49
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:4:5-49
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:6:5-30:19
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:6:5-30:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta8] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\824b706dc024da2cdb9fe14e1633f1a9\constraintlayout-2.0.0-beta8\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta8] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\824b706dc024da2cdb9fe14e1633f1a9\constraintlayout-2.0.0-beta8\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\d8e8c198008713507fd9cc5651f7ddd3\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -91,57 +91,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Br
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\ff86a3d9666377cb5d1dbba9757fbff1\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:10:9-41
 	tools:ignore
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:15:9-64
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:15:9-64
 	android:roundIcon
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:8:9-36
 	android:theme
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:13:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:14:9-44
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:14:9-44
 	android:name
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:7:9-41
 activity#com.raywenderlich.android.movieapp.ui.MainActivity
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:theme
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:20:13-47
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:20:13-47
 	android:name
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:19:13-44
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:19:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.raywenderlich.android.movieapp.ui.about.AboutDialogActivity
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:27:9-29:76
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:27:9-29:76
 	android:theme
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:29:13-73
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:29:13-73
 	android:name
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:28:13-57
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:28:13-57
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:32:5-67
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:32:5-67
 	android:name
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:32:22-64
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:32:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:34:5-79
+ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:34:5-79
 	android:name
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml:34:22-76
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml:34:22-76
 uses-sdk
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta8] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\824b706dc024da2cdb9fe14e1633f1a9\constraintlayout-2.0.0-beta8\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta8] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\824b706dc024da2cdb9fe14e1633f1a9\constraintlayout-2.0.0-beta8\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\ea64708b51c60f50f2c5d5242b8ac379\navigation-ui-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
@@ -244,13 +244,13 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\5c4673d94f1f5ab69f0b1382eecae7c9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\3986e9a69874208f37b7ac23f3254f48\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Bruno\.gradle\caches\transforms-2\files-2.1\3986e9a69874208f37b7ac23f3254f48\print-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Bruno\Downloads\MovieApp\MovieApp\starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Bruno\AndroidStudioProjects\Alura\MovieApp\starter\app\src\main\AndroidManifest.xml

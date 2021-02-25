@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+            "outputFile": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-2\\files-2.1\\bd292988b5a49f6b93bfd837cdf8a29e\\appcompat-1.1.0\\res\\values-nb\\values-nb.xml",
