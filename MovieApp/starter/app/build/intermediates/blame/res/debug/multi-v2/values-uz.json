@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
+            "outputFile": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-2\\files-2.1\\fd8764871a64d091a8f8901b6f56ae0e\\navigation-ui-2.3.0\\res\\values-uz\\values-uz.xml",

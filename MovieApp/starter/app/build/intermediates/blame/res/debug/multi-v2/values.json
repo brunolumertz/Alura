@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,1,6,3,5,4",
+                        "startColumns": "2,2,2,2,2,2",
+                        "startOffsets": "61,15,285,100,221,170",
+                        "endColumns": "37,44,118,68,62,49",
+                        "endOffsets": "96,57,401,166,281,217"
+                    },
+                    "to": {
+                        "startLines": "774,775,777,781,785,789",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "43139,43179,43376,43819,44357,44666",
+                        "endColumns": "39,46,120,70,64,51",
+                        "endOffsets": "43174,43221,43492,43885,44417,44713"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-2\\files-2.1\\fd8764871a64d091a8f8901b6f56ae0e\\navigation-ui-2.3.0\\res\\values\\values.xml",
                     "from": {
@@ -73,6 +90,23 @@
                         "endLines": "2,7,8,16,17,23,27,29,30,31,36,37,38,39,47,55,58,61,66,67,72,77,78,79,84,85,90,91,96,97,98,104,105,106,111,116,117,121,125,126,127,128,131,132,135,138,139,140,141,142,145,148,149,150,151,156,159,162,163,164,169,170,171,174,177,178,181,184,187,190,191,192,195,198,199,204,205,210,213,216,217,218,219,220,221,222,223,224,225,237,240,241,242,243,250,251,252,255,260,261,266,270,286,295,301,302,306,307,308,309,318,322,696,4069,4070,4071,4072,4172,4341,4342,4343,4344,4345,4346,4351,4352,4353,4354,4595,4596,4597,4603,4604,4610,4657,4669,4680,4769,4802,5006,5019,5020",
                         "endColumns": "56,11,60,11,51,47,50,51,60,45,11,51,49,50,11,11,44,58,11,56,11,11,53,56,11,57,11,55,11,56,50,11,51,54,11,11,49,55,11,60,59,69,11,67,11,11,61,64,67,66,11,11,66,64,64,11,11,11,65,66,11,68,65,11,11,66,11,11,11,11,55,64,11,11,64,11,66,11,11,11,64,61,61,61,58,59,60,60,58,11,50,48,47,57,11,46,59,11,11,42,45,46,51,11,11,54,11,45,54,44,11,11,40,4212,3604,143,4305,502,419,630,651,40,53,49,382,652,497,2876,345,231,139,35,129,133,35,35,231,126,105,483,97,302",
                         "endOffsets": "202,388,449,740,792,1124,1334,1435,1496,1542,1736,1788,1838,1889,2198,2510,2666,2818,3015,3072,3267,3449,3503,3560,3752,3810,4006,4062,4256,4313,4364,4586,4638,4693,4883,5059,5109,5312,5472,5533,5593,5663,5796,5864,5993,6119,6181,6246,6314,6381,6504,6629,6696,6761,6826,7007,7128,7249,7315,7382,7592,7661,7727,7852,7978,8045,8171,8298,8423,8550,8606,8671,8797,8920,8985,9193,9260,9440,9560,9680,9745,9807,9869,9931,9990,10050,10111,10172,10231,10732,10901,10950,10998,11056,11344,11391,11451,11557,11737,11780,12041,12231,13169,13499,13737,13792,13931,13977,14032,14077,14418,14555,38562,258301,261906,262050,266356,272678,283332,283963,284615,284656,284710,284760,285382,286035,286533,289410,303107,303339,303479,303984,304114,304541,307150,308182,308931,314206,316215,329808,330774,331077"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "375",
+                        "startColumns": "4",
+                        "startOffsets": "18203",
+                        "endColumns": "56",
+                        "endOffsets": "18255"
                     }
                 },
                 {
@@ -152,25 +186,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,11,23,17",
-                        "startColumns": "2,2,2,2",
-                        "startOffsets": "49,369,860,650",
-                        "endLines": "8,15,26,21",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "334,646,1025,856"
-                    },
-                    "to": {
-                        "startLines": "806,2463,2468,2811",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "46363,156002,156284,179893",
-                        "endLines": "811,2467,2471,2815",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "46648,156279,156449,180099"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-2\\files-2.1\\2670d85717585d0f6b1ec6aeedd2ed8a\\navigation-fragment-2.3.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,9",
@@ -209,23 +224,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\src\\main\\res\\values\\dimen.xml",
-                    "from": {
-                        "startLines": "35,40,42,38,43,44,36,39,37",
-                        "startColumns": "2,2,2,2,2,2,2,2,2",
-                        "startOffsets": "1941,2135,2178,2055,2218,2258,1979,2095,2017",
-                        "endColumns": "37,41,39,39,39,39,37,39,37",
-                        "endOffsets": "1976,2174,2215,2092,2255,2295,2014,2132,2052"
-                    },
-                    "to": {
-                        "startLines": "554,555,556,557,558,559,560,561,562",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "30001,30041,30085,30127,30169,30211,30253,30293,30335",
-                        "endColumns": "39,43,41,41,41,41,39,41,39",
-                        "endOffsets": "30036,30080,30122,30164,30206,30248,30288,30330,30370"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Bruno\\.gradle\\caches\\transforms-2\\files-2.1\\b56b010096afc9588fa741124371acc1\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -259,23 +257,6 @@
                         "startOffsets": "38211,38251,38797,38936,38991,39875,39929,39981,40030,40091",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "38246,38293,38835,38986,39033,39924,39976,40025,40086,40136"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2,1,6,3,5,4",
-                        "startColumns": "2,2,2,2,2,2",
-                        "startOffsets": "59,14,279,97,216,166",
-                        "endColumns": "37,44,118,68,62,49",
-                        "endOffsets": "94,56,395,163,276,213"
-                    },
-                    "to": {
-                        "startLines": "774,775,777,781,785,789",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "43139,43179,43376,43819,44357,44666",
-                        "endColumns": "39,46,120,70,64,51",
-                        "endOffsets": "43174,43221,43492,43885,44417,44713"
                     }
                 },
                 {
@@ -336,20 +317,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "source": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\src\\main\\res\\values\\dimen.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "2",
-                        "startOffsets": "53",
-                        "endColumns": "54",
-                        "endOffsets": "105"
+                        "startLines": "2,7,9,5,10,11,3,6,4",
+                        "startColumns": "2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "55,254,299,172,340,381,94,213,133",
+                        "endColumns": "37,41,39,39,39,39,37,39,37",
+                        "endOffsets": "90,293,336,209,377,418,129,250,168"
                     },
                     "to": {
-                        "startLines": "375",
-                        "startColumns": "4",
-                        "startOffsets": "18203",
-                        "endColumns": "56",
-                        "endOffsets": "18255"
+                        "startLines": "554,555,556,557,558,559,560,561,562",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "30001,30041,30085,30127,30169,30211,30253,30293,30335",
+                        "endColumns": "39,43,41,41,41,41,39,41,39",
+                        "endOffsets": "30036,30080,30122,30164,30206,30248,30288,30330,30370"
                     }
                 },
                 {
@@ -372,13 +353,32 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,11,23,17",
+                        "startColumns": "2,2,2,2",
+                        "startOffsets": "52,380,883,667",
+                        "endLines": "8,15,26,21",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "342,661,1051,877"
+                    },
+                    "to": {
+                        "startLines": "806,2463,2468,2811",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "46363,156002,156284,179893",
+                        "endLines": "811,2467,2471,2815",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "46648,156279,156449,180099"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,2,3,8,7,6",
                         "startColumns": "2,2,2,2,2,2",
-                        "startOffsets": "147,53,98,281,235,192",
+                        "startOffsets": "151,55,101,289,242,198",
                         "endColumns": "43,44,48,57,45,42",
-                        "endOffsets": "188,95,144,336,278,232"
+                        "endOffsets": "192,97,147,344,285,238"
                     },
                     "to": {
                         "startLines": "351,352,353,396,413,418",

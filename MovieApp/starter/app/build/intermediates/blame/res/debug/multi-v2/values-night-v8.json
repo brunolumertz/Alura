@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Bruno\\Downloads\\MovieApp\\MovieApp\\starter\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "source": "C:\\Users\\Bruno\\AndroidStudioProjects\\Alura\\MovieApp\\starter\\app\\src\\main\\res\\values-night\\colors.xml",
                     "from": {
                         "startLines": "37,36,35",
                         "startColumns": "2,2,2",
-                        "startOffsets": "2030,1984,1941",
+                        "startOffsets": "2067,2020,1976",
                         "endColumns": "57,45,42",
-                        "endOffsets": "2085,2027,1981"
+                        "endOffsets": "2122,2063,2016"
                     },
                     "to": {
                         "startLines": "2,3,4",
