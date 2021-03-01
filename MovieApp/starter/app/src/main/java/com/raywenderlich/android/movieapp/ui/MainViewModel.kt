@@ -1,111 +1,95 @@
 package com.raywenderlich.android.movieapp.ui
 
 import androidx.lifecycle.*
-import com.bumptech.glide.Glide.init
+import com.raywenderlich.android.movieapp.Event
 import com.raywenderlich.android.movieapp.framework.network.MovieRepository
 import com.raywenderlich.android.movieapp.framework.network.model.Movie
 import com.raywenderlich.android.movieapp.ui.movies.MovieLoadingState
-import kotlinx.coroutines.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class MainViewModel @Inject constructor(private val repository: MovieRepository) :
-    ViewModel() {
+        ViewModel() {
 
-  private var debouncePeriod: Long = 500
-  private var searchJob: Job? = null
-  //1
-  //3
-  private var _searchMoviesLiveData: LiveData<List<Movie>>
-
-  //2
-  private val _searchFieldTextLiveData = MutableLiveData<String>()
-
-  //1
-  private val _popularMoviesLiveData = MutableLiveData<List<Movie>>()
-
-  //2
-  val moviesMediatorData = MediatorLiveData<List<Movie>>()
+    private val _navigateToDetails = MutableLiveData<Event<String>>()
+    val navigateToDetails: LiveData<Event<String>>
+        get() = _navigateToDetails
 
 
-  val movieLoadingStateLiveData = MutableLiveData<MovieLoadingState>()
+    private var debouncePeriod: Long = 500
+    private var searchJob: Job? = null
+    private var _searchMoviesLiveData: LiveData<List<Movie>>
+    private val _searchFieldTextLiveData = MutableLiveData<String>()
+    private val _popularMoviesLiveData = MutableLiveData<List<Movie>>()
+    val moviesMediatorData = MediatorLiveData<List<Movie>>()
+    val movieLoadingStateLiveData = MutableLiveData<MovieLoadingState>()
 
-  //3
-  init {
-    _searchMoviesLiveData = Transformations.switchMap(_searchFieldTextLiveData) {
-      fetchMovieByQuery(it)
+    init {
+        _searchMoviesLiveData = Transformations.switchMap(_searchFieldTextLiveData) {
+            fetchMovieByQuery(it)
+        }
+
+        moviesMediatorData.addSource(_popularMoviesLiveData) {
+            moviesMediatorData.value = it
+        }
+
+        moviesMediatorData.addSource(_searchMoviesLiveData) {
+            moviesMediatorData.value = it
+        }
     }
 
-    //1
-    moviesMediatorData.addSource(_popularMoviesLiveData) {
-      moviesMediatorData.value = it
+    fun onFragmentReady() {
+        if (_popularMoviesLiveData.value.isNullOrEmpty()) {
+            fetchPopularMovies()
+        }
     }
 
-    //2
-    moviesMediatorData.addSource(_searchMoviesLiveData) {
-      moviesMediatorData.value = it
+
+    fun onSearchQuery(query: String) {
+        searchJob?.cancel()
+        searchJob = viewModelScope.launch {
+            delay(debouncePeriod)
+            if (query.length > 2) {
+                _searchFieldTextLiveData.value = query
+            }
+        }
     }
-  }
 
+    private fun fetchPopularMovies() {
+        movieLoadingStateLiveData.value = MovieLoadingState.LOADING
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                val movies = repository.fetchPopularMovies()
+                _popularMoviesLiveData.postValue(movies)
 
-
-  fun onFragmentReady() {
-    //3
-    fetchPopularMovies()
-
-  }
-
-  fun onSearchQuery(query: String) {
-    searchJob?.cancel()
-    searchJob = viewModelScope.launch {
-      delay(debouncePeriod)
-      if (query.length > 2) {
-        //4
-        _searchFieldTextLiveData.value = query
-      }
+                movieLoadingStateLiveData.postValue(MovieLoadingState.LOADED)
+            } catch (e: Exception) {
+                movieLoadingStateLiveData.postValue(MovieLoadingState.INVALID_API_KEY)
+            }
+        }
     }
-  }
 
-  private fun fetchPopularMovies() {
-    //1
-    movieLoadingStateLiveData.value = MovieLoadingState.LOADING
-    viewModelScope.launch(Dispatchers.IO) {
-      try {
-        //2
-        val movies = repository.fetchPopularMovies()
-        _popularMoviesLiveData.postValue(movies)
-
-        //3
-        movieLoadingStateLiveData.postValue(MovieLoadingState.LOADED)
-      } catch (e: Exception) {
-        //4
-        movieLoadingStateLiveData.postValue(MovieLoadingState.INVALID_API_KEY)
-      }
+    private fun fetchMovieByQuery(query: String): LiveData<List<Movie>> {
+        val liveData = MutableLiveData<List<Movie>>()
+        viewModelScope.launch(Dispatchers.IO) {
+            val movies = repository.fetchMovieByQuery(query)
+            liveData.postValue(movies)
+        }
+        return liveData
     }
-  }
 
 
-  //1
-  private fun fetchMovieByQuery(query: String): LiveData<List<Movie>> {
-    //2
-    val liveData = MutableLiveData<List<Movie>>()
-    viewModelScope.launch(Dispatchers.IO) {
-      val movies = repository.fetchMovieByQuery(query)
-      //3
-      liveData.postValue(movies)
+    fun onMovieClicked(movie: Movie) {
+        movie.title?.let {
+            _navigateToDetails.value = Event(it)
+        }
     }
-    //4
-    return liveData
-  }
 
-
-
-
-  fun onMovieClicked(movie: Movie) {
-    // TODO handle navigation to details screen event
-  }
-
-  override fun onCleared() {
-    super.onCleared()
-    searchJob?.cancel()
-  }
+    override fun onCleared() {
+        super.onCleared()
+        searchJob?.cancel()
+    }
 }
